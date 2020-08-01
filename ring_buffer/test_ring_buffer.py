@@ -1,5 +1,6 @@
 import unittest
 from ring_buffer import RingBuffer
+from threading import Timer
 
 class RingBufferTests(unittest.TestCase):
     def setUp(self):
